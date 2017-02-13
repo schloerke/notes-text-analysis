@@ -11,6 +11,7 @@ output: html_notebook
 ## Main Packages:
 
 * tm: 
+    * core library
     * text mining framework
     * http://tm.r-forge.r-project.org    
     * ftp://cran.r-project.org/pub/R/web/packages/tm/vignettes/tm.pdf
@@ -20,19 +21,6 @@ output: html_notebook
 * tidytext: 
     * text mining in the "tidyverse"
     * http://tidytextmining.com/
-* SnowballC: 
-    * word stemming algorithm for collapsing words to a common root to aid comparison of vocabulary
-    * `?SnowballC::wordStem`
-    * https://github.com/nalimilan/R.TeMiS
-* coreNLP:
-    * Stanford library
-    * "best" according to sentimentr and other sites
-    * https://github.com/statsmaths/coreNLP
-    * http://stanfordnlp.github.io/CoreNLP/
-
-
-## Other packages:
-
 * syuzhet: 
     * An R package for the extraction of sentiment and sentiment-based plot arcs from text
     * has link to stanford sentiment
@@ -41,6 +29,19 @@ output: html_notebook
 * sentimentr: https://github.com/trinker/sentimentr
     * similar to tidytext
     * comparing syuzhet, rsentiment, and stanford: https://github.com/trinker/sentimentr#comparing-sentimentr-syuzhet-rsentiment-and-stanford
+
+
+## Other packages:
+
+* coreNLP:
+    * Stanford library
+    * "best" according to sentimentr and other sites
+    * https://github.com/statsmaths/coreNLP
+    * http://stanfordnlp.github.io/CoreNLP/
+
+
+## Github packages:
+
 * VADER:
     * specifically attuned to sentiments expressed in social media
     * https://github.com/cjhutto/vaderSentiment
@@ -54,6 +55,10 @@ output: html_notebook
 
 ## Helper packages:
 
+* SnowballC: 
+    * word stemming algorithm for collapsing words to a common root to aid comparison of vocabulary
+    * `?SnowballC::wordStem`
+    * https://github.com/nalimilan/R.TeMiS
 * hunspell: 
     * spell checker
     * http://hunspell.github.io
