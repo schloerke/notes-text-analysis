@@ -1,0 +1,83 @@
+---
+output: html_notebook
+---
+
+# Text analysis hierarchy
+
+<img src="sentiment_analysis.jpg" width="1000px" />
+
+# Packages
+
+## Main Packages:
+
+* tm: 
+    * text mining framework
+    * http://tm.r-forge.r-project.org    
+    * ftp://cran.r-project.org/pub/R/web/packages/tm/vignettes/tm.pdf
+* qdap:
+    * designed to assist in quantitative discourse analysis
+    * https://trinker.github.io/qdap/
+* tidytext: 
+    * text mining in the "tidyverse"
+    * http://tidytextmining.com/
+* SnowballC: 
+    * word stemming algorithm for collapsing words to a common root to aid comparison of vocabulary
+    * `?SnowballC::wordStem`
+    * https://github.com/nalimilan/R.TeMiS
+* coreNLP:
+    * Stanford library
+    * "best" according to sentimentr and other sites
+    * https://github.com/statsmaths/coreNLP
+    * http://stanfordnlp.github.io/CoreNLP/
+
+
+## Other packages:
+
+* syuzhet: 
+    * An R package for the extraction of sentiment and sentiment-based plot arcs from text
+    * has link to stanford sentiment
+    * https://github.com/mjockers/syuzhet
+    * ftp://cran.r-project.org/pub/R/web/packages/syuzhet/vignettes/syuzhet-vignette.html
+* sentimentr: https://github.com/trinker/sentimentr
+    * similar to tidytext
+    * comparing syuzhet, rsentiment, and stanford: https://github.com/trinker/sentimentr#comparing-sentimentr-syuzhet-rsentiment-and-stanford
+* VADER:
+    * specifically attuned to sentiments expressed in social media
+    * https://github.com/cjhutto/vaderSentiment
+* SpeedReader:
+    * interested in heavy NLP applications in R, or working with an obscenely large corpus
+    * https://github.com/matthewjdenny/SpeedReader
+* sentiment140
+    * R package for Twitter sentiment text analysis
+    * https://github.com/okugami79/sentiment140
+    
+
+## Helper packages:
+
+* hunspell: 
+    * spell checker
+    * http://hunspell.github.io
+* tokenizers:
+    * convert natural language text into tokens
+    * https://github.com/ropensci/tokenizers
+
+
+# Examples:
+
+* rbloggers
+    * https://www.r-bloggers.com/intro-to-text-analysis-with-r/
+* basic text mining
+    * https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html
+* gentle intro (good explainations)
+    * https://eight2late.wordpress.com/2015/05/27/a-gentle-introduction-to-text-mining-using-r/
+* tm/qdap example
+    * http://onepager.togaware.com/TextMiningO.pdf
+* syuzhet:
+    * http://juliasilge.com/blog/If-I-Loved-NLP-Less/
+    * http://juliasilge.com/blog/You-Must-Allow-Me/
+    
+
+
+<!-- Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*. -->
+
+<!-- When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). -->
