@@ -26,8 +26,12 @@ output: html_notebook
     * has link to stanford sentiment
     * https://github.com/mjockers/syuzhet
     * ftp://cran.r-project.org/pub/R/web/packages/syuzhet/vignettes/syuzhet-vignette.html
-* sentimentr: https://github.com/trinker/sentimentr
+* sentimentr: 
     * similar to tidytext
+    * trade off between speed an accuracy
+        * faster than stanford, but not as accurate
+        * slower than dictionaries, but more accurate
+    * https://github.com/trinker/sentimentr
     * comparing syuzhet, rsentiment, and stanford: https://github.com/trinker/sentimentr#comparing-sentimentr-syuzhet-rsentiment-and-stanford
 
 
